@@ -11,5 +11,10 @@ public class PaymentOperations {
 		
 		return "credit card payment done";
 	}
+	
+	public String UPIPayment() {
+		
+		return "upi payment failed";
+	}
 
 }
