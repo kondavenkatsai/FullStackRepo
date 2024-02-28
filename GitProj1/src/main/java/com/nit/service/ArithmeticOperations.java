@@ -10,6 +10,10 @@ public class ArithmeticOperations {
 		
 		return x*y;
 	}
+	public int sub(int x, int y) {
+		
+		return x-y;
+	}
 	public static void main(String[] args) {
 		
 		ArithmeticOperations ops=new ArithmeticOperations();
@@ -18,6 +22,9 @@ public class ArithmeticOperations {
 		
 		int product=ops.product(12, 12);
 		System.out.println(product);
+		
+		int sub=ops.sub(16, 15);
+		System.out.println(sub);
 		
 	}
 	
