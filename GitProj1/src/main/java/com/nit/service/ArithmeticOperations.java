@@ -6,11 +6,19 @@ public class ArithmeticOperations {
 		
 		return x+y;
 	}
+	public int product(int x, int y) {
+		
+		return x*y;
+	}
 	public static void main(String[] args) {
 		
 		ArithmeticOperations ops=new ArithmeticOperations();
 		int sum=ops.add(12, 29);
 		System.out.println(sum);
 		
+		int product=ops.product(12, 12);
+		System.out.println(product);
+		
 	}
+	
 }
