@@ -17,6 +17,7 @@ public class ArithmeticOperations {
 	public static void main(String[] args) {
 		
 		ArithmeticOperations ops=new ArithmeticOperations();
+
 		int sum=ops.add(12, 29); //srikanth
 		System.out.println(sum);
 		
